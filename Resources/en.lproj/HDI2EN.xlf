@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+		<source>Info</source>
+		<target>Info</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabDemo" resname="HDI2_TabDemo">
+		<source>Demo</source>
+		<target>Demo</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo3" resname="HDI2_TxtInfo3">
+		<source>Starting with 4D v16 R5, the ST SET EXPRESSIONnow support any expression returning an image.</source>
+		<target>Starting with 4D v16 R5, the ST SET EXPRESSIONnow support any expression returning an image.</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo1" resname="HDI2_TxtInfo1">
+		<source>These expressions can be either a variable, a field,a 4D function or one of your own method!</source>
+		<target>These expressions can be either a variable, a field,a 4D function or one of your own method!</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo2" resname="HDI2_TxtInfo2">
+		<source>***</source>
+		<target>***</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo7" resname="HDI2_TxtInfo7">
+		<source>Note: This method has to be "allowed" first (see the code)</source>
+		<target>Note: This method has to be "allowed" first (see the code)</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button4" resname="HDI2_Button4">
+		<source>use variable vPicture</source>
+		<target>use variable vPicture</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button6" resname="HDI2_Button6">
+		<source>use method LoadPicture</source>
+		<target>use method LoadPicture</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button1" resname="HDI2_Button1">
+		<source>use a field [DOC]sample</source>
+		<target>use a field [DOC]sample</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo4" resname="HDI2_TxtInfo4">
+		<source>#1: Simply insert an image variable(the variable which displayed above)</source>
+		<target>#1: Simply insert an image variable(the variable which displayed above)</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo5" resname="HDI2_TxtInfo5">
+		<source>#2: The same way, a field can be inserted.</source>
+		<target>#2: The same way, a field can be inserted.</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo6" resname="HDI2_TxtInfo6">
+		<source>#3: Finally, a method returning a picture can be inserted.</source>
+		<target>#3: Finally, a method returning a picture can be inserted.</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

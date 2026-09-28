@@ -47,7 +47,7 @@
 					"width": 100,
 					"height": 12,
 					"dataSource": "vRecNum",
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 9,
 					"focusable": false,
@@ -74,8 +74,9 @@
 					"width": 515,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "DOC"
+					"stroke": "automatic",
+					"text": ":xliff:Form1_Text8",
+					"fill": "automatic"
 				},
 				"Line9": {
 					"type": "line",
@@ -224,7 +225,9 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:Form1_Text10",
+					"fill": "automatic",
+					"stroke": "automatic"
 				},
 				"Text11": {
 					"type": "text",
@@ -233,7 +236,9 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "LongText : "
+					"text": ":xliff:Form1_Text11",
+					"fill": "automatic",
+					"stroke": "automatic"
 				},
 				"Text12": {
 					"type": "text",
@@ -242,7 +247,9 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "SamplePict : "
+					"text": ":xliff:Form1_Text12",
+					"fill": "automatic",
+					"stroke": "automatic"
 				},
 				"Text13": {
 					"type": "text",
@@ -251,7 +258,9 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ShortText : "
+					"text": ":xliff:Form1_Text13",
+					"fill": "automatic",
+					"stroke": "automatic"
 				},
 				"Text14": {
 					"type": "text",
@@ -260,7 +269,9 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Title : "
+					"text": ":xliff:Form1_Text14",
+					"fill": "automatic",
+					"stroke": "automatic"
 				},
 				"ID": {
 					"type": "input",
@@ -288,7 +299,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"LongText": {
 					"type": "input",
@@ -299,7 +311,7 @@
 					"sizingY": "grow",
 					"dataSource": "[DOC:1]",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"allowFontColorPicker": true,
@@ -326,7 +338,7 @@
 					"height": 250,
 					"dataSource": "[DOC:1]SamplePict:5",
 					"dataSourceTypeHint": "picture",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"scrollbarVertical": "visible",
 					"scrollbarHorizontal": "visible",
@@ -352,7 +364,7 @@
 					"sizingY": "grow",
 					"dataSource": "[DOC:1]",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"allowFontColorPicker": true,
@@ -379,7 +391,7 @@
 					"height": 17,
 					"dataSource": "[DOC:1]",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -401,9 +413,9 @@
 					"top": 168,
 					"left": 592,
 					"width": 144,
-					"height": 23,
-					"text": "Button",
+					"text": ":xliff:Form1_Button",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"

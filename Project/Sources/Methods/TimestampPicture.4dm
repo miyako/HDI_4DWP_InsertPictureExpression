@@ -1,13 +1,9 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 
+#DECLARE->$picture : Picture
 
-C_PICTURE:C286($0)
-
-C_TEXT:C284($timestamp)
-C_LONGINT:C283($p)
-C_TEXT:C284($svg; $rect; $svgText)
-C_PICTURE:C286($picture)
-
+var $timestamp; $svg; $rect; $svgText : Text
+var $p : Integer
 
 $timestamp:=Timestamp:C1445
 $p:=Position:C15("T"; $timestamp)
@@ -26,6 +22,3 @@ SVG_SET_TRANSFORM_ROTATE($svg; -30; 100; 100)
 $picture:=SVG_Export_to_picture($svg)
 
 CONVERT PICTURE:C1002($picture; ".png")
-
-$0:=$picture
-

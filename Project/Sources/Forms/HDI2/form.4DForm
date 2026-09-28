@@ -47,8 +47,8 @@
 					"sizingY": "grow",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Demo"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabDemo"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -68,7 +68,7 @@
 					"sizingX": "grow",
 					"class": "HDI",
 					"textAlign": "center",
-					"text": "Starting with 4D v16 R5, the ST SET EXPRESSION\rnow support any expression returning an image."
+					"text": ":xliff:HDI2_TxtInfo3"
 				},
 				"TxtInfo1": {
 					"type": "text",
@@ -79,7 +79,7 @@
 					"sizingX": "grow",
 					"class": "HDI",
 					"textAlign": "center",
-					"text": "These expressions can be either a variable, a field,\ra 4D function or one of your own method!"
+					"text": ":xliff:HDI2_TxtInfo1"
 				},
 				"TxtInfo2": {
 					"type": "text",
@@ -90,7 +90,7 @@
 					"sizingX": "grow",
 					"class": "HDI",
 					"textAlign": "center",
-					"text": "***"
+					"text": ":xliff:HDI2_TxtInfo2"
 				},
 				"Picture3": {
 					"type": "picture",
@@ -164,9 +164,9 @@
 					"height": 40,
 					"sizingX": "move",
 					"stroke": "#FF0000",
-					"class": "default",
+					"class": "HDI2Label",
 					"textAlign": "left",
-					"text": "Note: This method has to be \"allowed\" first (see the code)"
+					"text": ":xliff:HDI2_TxtInfo7"
 				},
 				"WParea": {
 					"type": "write",
@@ -212,10 +212,10 @@
 					"top": 290,
 					"left": 500,
 					"width": 200,
-					"height": 20,
 					"sizingX": "move",
-					"text": "use variable vPicture",
+					"text": ":xliff:HDI2_Button4",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
@@ -226,10 +226,10 @@
 					"top": 550,
 					"left": 500,
 					"width": 200,
-					"height": 20,
 					"sizingX": "move",
-					"text": "use method LoadPicture",
+					"text": ":xliff:HDI2_Button6",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
@@ -240,10 +240,10 @@
 					"top": 410,
 					"left": 500,
 					"width": 200,
-					"height": 20,
 					"sizingX": "move",
-					"text": "use a field [DOC]sample",
+					"text": ":xliff:HDI2_Button1",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
@@ -256,9 +256,9 @@
 					"width": 240,
 					"height": 39,
 					"sizingX": "move",
-					"class": "default",
+					"class": "HDI2Label",
 					"textAlign": "left",
-					"text": "#1: Simply insert an image variable\r(the variable which displayed above)"
+					"text": ":xliff:HDI2_TxtInfo4"
 				},
 				"TxtInfo5": {
 					"type": "text",
@@ -267,9 +267,9 @@
 					"width": 240,
 					"height": 39,
 					"sizingX": "move",
-					"class": "default",
+					"class": "HDI2Label",
 					"textAlign": "left",
-					"text": "#2: The same way, a field can be inserted."
+					"text": ":xliff:HDI2_TxtInfo5"
 				},
 				"TxtInfo6": {
 					"type": "text",
@@ -278,9 +278,9 @@
 					"width": 240,
 					"height": 40,
 					"sizingX": "move",
-					"class": "default",
+					"class": "HDI2Label",
 					"textAlign": "left",
-					"text": "#3: Finally, a method returning a picture can be inserted."
+					"text": ":xliff:HDI2_TxtInfo6"
 				}
 			}
 		}

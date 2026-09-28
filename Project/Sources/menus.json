@@ -40,7 +40,7 @@
 			"title": ":xliff:CommonMenuFile",
 			"items": [
 				{
-					"title": "Demo",
+					"title": ":xliff:MenuItemDemo",
 					"method": "00_Start",
 					"shortcutAccel": true,
 					"shortcutKey": "k"
@@ -117,10 +117,10 @@
 		},
 		{
 			"link": 32006,
-			"title": "Menu 4",
+			"title": ":xliff:MenuTitleMenu4",
 			"items": [
 				{
-					"title": "Item 1",
+					"title": ":xliff:MenuItemItem1",
 					"method": "shared_method_visible"
 				}
 			]
