@@ -1,0 +1,10 @@
+//%attributes = {"invisible":true}
+C_REAL:C285(Demo)
+C_TEXT:C284(Var1)
+C_TEXT:C284(Var2)
+C_TEXT:C284(Var3)
+C_TEXT:C284(Var4)
+C_TEXT:C284(Var5)
+C_PICTURE:C286(vPicture)
+C_TEXT:C284(vRecNum)
+C_OBJECT:C1216(WParea)
