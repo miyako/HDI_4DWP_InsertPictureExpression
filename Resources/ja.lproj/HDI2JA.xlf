@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+		<source>Info</source>
+		<target>情報</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabDemo" resname="HDI2_TabDemo">
+		<source>Demo</source>
+		<target>デモ</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo3" resname="HDI2_TxtInfo3">
+		<source>Starting with 4D v16 R5, the ST SET EXPRESSIONnow support any expression returning an image.</source>
+		<target>4D v16 R5 以降、ST SET EXPRESSION は画像を返す任意の式をサポートするようになりました。</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo1" resname="HDI2_TxtInfo1">
+		<source>These expressions can be either a variable, a field,a 4D function or one of your own method!</source>
+		<target>これらの式は、変数、フィールド、4D関数、または独自のメソッドのいずれかです!</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo2" resname="HDI2_TxtInfo2">
+		<source>***</source>
+		<target>***</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo7" resname="HDI2_TxtInfo7">
+		<source>Note: This method has to be "allowed" first (see the code)</source>
+		<target>注意: このメソッドは事前に「許可」する必要があります(コードを参照)</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button4" resname="HDI2_Button4">
+		<source>use variable vPicture</source>
+		<target>変数 vPicture を使用</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button6" resname="HDI2_Button6">
+		<source>use method LoadPicture</source>
+		<target>メソッド LoadPicture を使用</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button1" resname="HDI2_Button1">
+		<source>use a field [DOC]sample</source>
+		<target>フィールド [DOC]sample を使用</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo4" resname="HDI2_TxtInfo4">
+		<source>#1: Simply insert an image variable(the variable which displayed above)</source>
+		<target>#1: 画像変数を挿入するだけです(上に表示されている変数)</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo5" resname="HDI2_TxtInfo5">
+		<source>#2: The same way, a field can be inserted.</source>
+		<target>#2: 同様に、フィールドを挿入できます。</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TxtInfo6" resname="HDI2_TxtInfo6">
+		<source>#3: Finally, a method returning a picture can be inserted.</source>
+		<target>#3: 最後に、画像を返すメソッドを挿入できます。</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>
